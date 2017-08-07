@@ -11,14 +11,38 @@ html {
 }
 
 .formal {
+	height: 800px;
 	font: 1em Helvetica;
-	background-image: https://raw.githubusercontent.com/khristoph/khristoph.github.io/master/images/poppy%20jumping.jpg ("poppy jumping.jpg");
+	background-image: url("https://raw.githubusercontent.com/khristoph/khristoph.github.io/master/images/foggy_grapes.JPG");
+	background-size: 1200px 1500px;
+
 }
 
+.intro {
+	font: 1em Helvetica;
+	font-style: italic;
+}
 footer {
 	text-align: center;
 }
 
-body {
-	background-image: https://google.com;
+a:link {
+	color: red;
 }
+
+a:visited {
+	color: purple;
+}
+
+#grapes {
+	width:600px;
+	height:400px;
+}
+
+@media screen and (max-width: 500px) {
+  #grapes{
+  	width: 300px;
+  	height: 200px;
+    
+  	}
+  }
