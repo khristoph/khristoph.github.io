@@ -12,10 +12,13 @@ html {
 
 .formal {
 	font: 1em Helvetica;
-	background-image: https://raw.githubusercontent.com/khristoph/khristoph.github.io/master/images/glass_cartoon.JPG;
-
+	background-image: https://raw.githubusercontent.com/khristoph/khristoph.github.io/master/images/poppy%20jumping.jpg ("poppy jumping.jpg");
 }
 
 footer {
 	text-align: center;
+}
+
+body {
+	background-image: https://google.com;
 }
