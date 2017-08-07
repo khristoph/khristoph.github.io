@@ -1,3 +1,21 @@
-body {
-	background:blue;
+
+#cycle {
+	padding: 25px;
+	border: solid;
+	
+}
+
+html {
+	max-width: 1200px;
+	margin:auto;
+}
+
+.formal {
+	font: 1em Helvetica;
+	background-image: https://raw.githubusercontent.com/khristoph/khristoph.github.io/master/images/glass_cartoon.JPG;
+
+}
+
+footer {
+	text-align: center;
 }
