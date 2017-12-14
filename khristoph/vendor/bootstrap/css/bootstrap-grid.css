@@ -66,6 +66,9 @@ html {
       flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+
+  padding-right: 0px;
+  margin-right: 0px;
 }
 
 .no-gutters {

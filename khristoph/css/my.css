@@ -4,38 +4,25 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
-/*/*!
- * Start Bootstrap - Agency v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
- */
-
-.row.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-
-}
-
 .color-1 {
-  color: orange;
+  color: green;
 }
-
 
 
 body {
   overflow-x: hidden;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 p {
   line-height: 1.75; }
 
 a {
-  color: #00A6FB; }
+  color: #fed136; }
   a:hover {
-    color: #0582CA; }
+    color: #fec503; }
 
 .text-primary {
-  color: #0582CA !important; }
+  color: #fed136 !important; }
 
 h1,
 h2,
@@ -55,10 +42,10 @@ section {
   section h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
-    line-height: 200%;
+    font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 @media (min-width: 768px) {
   section {
@@ -111,10 +98,10 @@ body {
     background-color: #fed136;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   #mainNav .navbar-brand {
-    color: white;
-    font-family: 'Montserrat', Helvetica, Arial, cursive; }
+    color: #fed136;
+    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #00A6FB; }
+      color: #fec503; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
@@ -123,7 +110,7 @@ body {
     color: white;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #00A6FB; }
+      color: #fed136; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -151,7 +138,7 @@ body {
 
 header.masthead {
   text-align: center;
-  color: black;
+  color: white;
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -165,10 +152,10 @@ header.masthead {
     padding-bottom: 100px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
-
+      font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
-      font-family: 'Montserrat', Helvetica, Arial, sans-serif; }
+      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 50px;
       font-weight: 700;
@@ -182,10 +169,10 @@ header.masthead {
     padding-bottom: 200px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 40px;
-
+      font-style: italic;
       line-height: 40px;
       margin-bottom: 25px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 75px;
       font-weight: 700;
@@ -242,9 +229,9 @@ header.masthead {
       text-transform: none; }
     #portfolio .portfolio-item .portfolio-caption p {
       font-size: 16px;
-
+      font-style: italic;
       margin: 0;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 #portfolio * {
   z-index: 2; }
@@ -268,9 +255,9 @@ header.masthead {
       margin-bottom: 30px; }
     .portfolio-modal .modal-content p.item-intro {
       font-size: 16px;
-
+      font-style: italic;
       margin: 20px 0 30px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     .portfolio-modal .modal-content ul.list-inline {
       margin-top: 0;
       margin-bottom: 30px; }
@@ -527,7 +514,7 @@ ul.social-buttons {
     outline: none;
     background-color: #212529; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-      background-color: #00A6FB; }
+      background-color: #fed136; }
 
 
 
